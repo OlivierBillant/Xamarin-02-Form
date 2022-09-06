@@ -1,0 +1,15 @@
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\bin\Debug\netstandard2.0\Xamarin-02-Form.deps.json
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\bin\Debug\netstandard2.0\Xamarin-02-Form.dll
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\bin\Debug\netstandard2.0\Xamarin-02-Form.pdb
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\Xamarin-02-Form.csproj.AssemblyReference.cache
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\Xamarin-02-Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\Xamarin-02-Form.AssemblyInfoInputs.cache
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\Xamarin-02-Form.AssemblyInfo.cs
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\Xamarin-02-Form.csproj.CoreCompileInputs.cache
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\Xamarin-02-Form.dll
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\refint\Xamarin-02-Form.dll
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\Xamarin-02-Form.pdb
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form\obj\Debug\netstandard2.0\ref\Xamarin-02-Form.dll
