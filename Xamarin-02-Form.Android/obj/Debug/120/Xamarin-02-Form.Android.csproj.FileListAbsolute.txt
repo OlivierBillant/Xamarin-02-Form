@@ -631,3 +631,10 @@ C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-
 C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\res\drawable\pencil.png
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\res\drawable\search.png
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\res\drawable-xhdpi\pencil.png
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\res\drawable-xhdpi\search.png
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\res\drawable-xhdpi\favorite.png
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\res\drawable-xhdpi\reply.png
+C:\Users\obillant2022\Documents\Xamarin\Xamarin-02-Form\Xamarin-02-Form\Xamarin-02-Form.Android\obj\Debug\120\res\drawable-xhdpi\retweet.png

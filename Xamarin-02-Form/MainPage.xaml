@@ -4,51 +4,67 @@
              x:Class="Xamarin_02_Form.MainPage">
 
     <StackLayout>
- <!-- Barre du haut-->
+        <!-- Barre du haut-->
         <ContentView BackgroundColor="#58B0F0">
             <StackLayout Orientation="Horizontal" Margin="10, 25">
-                <Label Text="Nouveau" VerticalTextAlignment="Center" TextColor="White"></Label>
-                <Label Text="Accueil" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
-                <Label Text="Rechercher" VerticalTextAlignment="Center" TextColor="White"></Label>
+                <ImageButton Source="pencil.png" BackgroundColor="Transparent" ></ImageButton>
+                <Label Text="Accueil" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                <ImageButton Source="search.png" BackgroundColor="Transparent"></ImageButton>
             </StackLayout>
         </ContentView>
-<!-- Zone de texte test-->
+
+        <StackLayout VerticalOptions="FillAndExpand" x:Name="connexion" IsVisible="true">
+            <StackLayout Orientation="Horizontal" Margin="10, 10, 0, 0" >
+                <Label Text="Connexion à twitter" FontSize="15" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="DarkGray"></Label>
+            </StackLayout>
+            <Entry Placeholder="Identifiant" FontSize="15" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="DarkGray" Margin="15, 0" x:Name="identifiant"/>
+            <Entry Placeholder="Mot de passe" IsPassword="True" FontSize="15" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="DarkGray" Margin="15, 0" x:Name="password" />
+            <StackLayout  Orientation="Horizontal" Margin="10, 10, 0, 0">
+                <Switch HorizontalOptions="Start" Margin="0, 0, 15, 0" IsToggled="True"></Switch>
+                <Label Text="Se souvenir de moi" FontSize="15" TextColor="DarkGray"></Label>
+            </StackLayout>
+            <Button Text="Se connecter" TextColor="DarkGray" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+
+        <!-- Zone de texte test
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand"
-           TextColor="Black"/>
-<!--Début scroll view-->
-        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-<!-- Seul et unique enfant du scroll view-->
+           TextColor="Black"/>-->
+        <!--Début scroll view-->
+        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="fil" IsVisible="false">
+            <!-- Seul et unique enfant du scroll view-->
             <StackLayout Orientation="Vertical">
                 <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="10">
-                        
-<!-- Bloc plein a gauche-->
-                        <ContentView Margin="10" WidthRequest="75" HeightRequest="75" BackgroundColor="#58B0F0"></ContentView>
+
+                        <!-- Bloc plein a gauche-->
+                        <!--<ContentView Margin="10" WidthRequest="75" HeightRequest="75" BackgroundColor="#58B0F0"></ContentView>-->
+                        <Image Source="https://picsum.photos/50/50/?random" Margin="10" WidthRequest="75"></Image>
                         <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
-<!-- Auteur et username-->
+                            <!-- Auteur et username-->
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="Cedric" TextColor="Black"></Label>
-                                <Label Text="@cedricmillauriaux" TextColor="Black"></Label>
-                                <Label Text="50s" TextColor="DarkGray" HorizontalOptions="EndAndExpand"></Label>
+                                <Label Text="Cedric" FontAttributes="Bold" TextColor="Black"></Label>
+                                <Label Text="@cedricmillauriaux" TextColor="DarkGray"></Label>
+                                <Label Text="50s" TextColor="DarkGray" HorizontalOptions="EndAndExpand" Margin="15,0"></Label>
                             </StackLayout>
-<!-- Coeur texte tweet-->
+                            <!-- Coeur texte tweet-->
                             <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod convallis dolor. Quisque ultricies porttitor nunc venenatis facilisis. " TextColor="Black"></Label>
                         </StackLayout>
                     </StackLayout>
-<!-- Boutons-->
-                    <StackLayout Orientation="Horizontal" Margin="15">
+                    <!-- Boutons-->
+                    <StackLayout Orientation="Horizontal" Margin="15, 0">
                         <!--<Label HorizontalOptions="FillAndExpand" Text="Répondre" HorizontalTextAlignment="Center" TextColor="Black"></Label>-->
-                        <Button HorizontalOptions="FillAndExpand" Text="Répondre" ></Button>
-                        <Button HorizontalOptions="FillAndExpand" Text="Retweet" ></Button>
-                        <Button HorizontalOptions="FillAndExpand" Text="Favoris" ></Button>
+                        <ImageButton Source="reply.png" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" ></ImageButton>
+                        <ImageButton Source="retweet.png" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand"></ImageButton>
+                        <ImageButton Source="favorite.png" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand"></ImageButton>
                     </StackLayout>
+                    <!---->
                     <ContentView HeightRequest="0.5" BackgroundColor="WhiteSmoke" HorizontalOptions="FillAndExpand"></ContentView>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
-<!-- Barre du base-->
+        <!-- Barre du base-->
         <ContentView BackgroundColor="#white">
             <StackLayout Orientation="Horizontal" Margin="10, 25">
                 <Label Text="Fil" VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="Gray"></Label>
