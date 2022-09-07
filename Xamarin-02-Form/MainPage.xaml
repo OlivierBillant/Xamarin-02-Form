@@ -20,10 +20,10 @@
             <Entry Placeholder="Identifiant" FontSize="15" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="DarkGray" Margin="15, 0" x:Name="identifiant"/>
             <Entry Placeholder="Mot de passe" IsPassword="True" FontSize="15" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="DarkGray" Margin="15, 0" x:Name="password" />
             <StackLayout  Orientation="Horizontal" Margin="10, 10, 0, 0">
-                <Switch HorizontalOptions="Start" Margin="0, 0, 15, 0" IsToggled="True"></Switch>
+                <Switch HorizontalOptions="Start" Margin="0, 0, 15, 0" x:Name="rememberme"></Switch>
                 <Label Text="Se souvenir de moi" FontSize="15" TextColor="DarkGray"></Label>
             </StackLayout>
-            <Button Text="Se connecter" TextColor="DarkGray" Clicked="Button_Clicked"></Button>
+            <Button Text="Se connecter" TextColor="DarkGray" Clicked="Connexion_Clicked"></Button>
         </StackLayout>
 
         <!-- Zone de texte test
@@ -35,6 +35,7 @@
         <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="fil" IsVisible="false">
             <!-- Seul et unique enfant du scroll view-->
             <StackLayout Orientation="Vertical">
+                <Button Text="Retour" TextColor="DarkGray" Clicked="Retour_Clicked"></Button>
                 <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="10">
 

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Xamarin_02_Form
@@ -15,7 +16,7 @@ namespace Xamarin_02_Form
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void Connexion_Clicked(object sender, EventArgs e)
         {
             CheckEmpty();
             if (CheckEmpty())
@@ -23,12 +24,19 @@ namespace Xamarin_02_Form
                 CheckPassword();
             }
         }
+        private void Retour_Clicked(object sender, EventArgs e)
+        {
+            if (!Preferences.Get("RememberMe", false))
+            {
+                ResetVisibility();
+            }
+        }
 
         public Boolean CheckEmpty()
         {
             if (identifiant.Text is null || password.Text is null)
             {
-                DisplayAlert("Error", "Vous devez saisir une couple ID/PW", "cancel");
+                DisplayAlert("Erreur", "Vous devez saisir une couple ID/PW", "Retour");
                 return false;
             }
             else
@@ -42,12 +50,12 @@ namespace Xamarin_02_Form
             String passwordBase = "motdepasse";
             if (identifiant.Text == identifiantBase && password.Text == passwordBase)
             {
+                RememberMe();
                 EditVisibility();
             }
             else
             {
-                DisplayAlert("Error", "Identifiant ou mot de passe invalide", "cancel");
-                ;
+                DisplayAlert("Erreur", "Identifiant ou mot de passe invalide", "Retour");
             }
         }
 
@@ -56,5 +64,24 @@ namespace Xamarin_02_Form
             connexion.IsVisible = false;
             fil.IsVisible = true;
         }
+
+        public void ResetVisibility()
+        {
+            connexion.IsVisible = true;
+            fil.IsVisible = false;
+        }
+
+        public void RememberMe()
+        {
+            if (rememberme.IsToggled)
+            {
+                Preferences.Set("RememberMe", true);
+            }
+            else
+            {
+                Preferences.Set("RememberMe", false);
+            }
+        }
+
     }
 }
